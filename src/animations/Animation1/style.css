@@ -1,0 +1,28 @@
+.a1_progressBar {
+ height: 1.25rem;
+ width: 100%;
+ text-align: center;
+ position: relative;
+ border: 1px solid black;
+}
+.a1_progressCounter {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+.a1_progressBarAnimated {
+ height: 100%;
+ background-color: blue;
+}
+.a1_imageContainer {
+ height: 350px;
+ width: 350px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.a1_imageBox {
+ background: url("https://images.pexels.com/photos/3227984/pexels-photo-3227984.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+ cursor: pointer;
+}
